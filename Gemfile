@@ -19,13 +19,13 @@ else
   #
   # To issue a rails update bump the version number here
   rails_version = '6.1.4.1'
-  gem 'actionmailer', rails_version
-  gem 'actionpack', rails_version
-  gem 'actionview', rails_version
-  gem 'activemodel', rails_version
-  gem 'activerecord', rails_version
-  gem 'activesupport', rails_version
-  gem 'railties', rails_version
+  gem 'actionmailer', '>= 6.1.7.3', rails_version
+  gem 'actionpack', '>= 6.1.7.3', rails_version
+  gem 'actionview', '>= 6.1.7.3', rails_version
+  gem 'activemodel', '>= 6.1.7.3', rails_version
+  gem 'activerecord', '>= 6.1.7.3', rails_version
+  gem 'activesupport', '>= 6.1.7.3', rails_version
+  gem 'railties', '>= 6.1.7.3', rails_version
   gem 'sprockets-rails'
 end
 
@@ -59,7 +59,7 @@ gem 'redis-namespace'
 # we used an old branch which is the fastest one out there
 # are long term goal here is to fork this gem so we have a
 # better maintained living fork
-gem 'active_model_serializers', '~> 0.8.3'
+gem 'active_model_serializers', '~> 0.8.4'
 
 gem 'http_accept_language', require: false
 
@@ -127,7 +127,7 @@ gem 'mini_racer'
 
 gem 'highline', require: false
 
-gem 'rack'
+gem 'rack', '>= 2.2.6.4'
 
 gem 'rack-protection' # security
 gem 'cbor', require: false
