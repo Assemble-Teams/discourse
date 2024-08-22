@@ -19,7 +19,7 @@
     "@babel/core": "^7.14.3",
     "@discourse/itsatrap": "^2.0.10",
     "@ember/optional-features": "^1.1.0",
-    "@ember/test-helpers": "^2.2.0",
+    "@ember/test-helpers": "^4.0.0",
     "@glimmer/component": "^1.0.0",
     "@popperjs/core": "2.10.2",
     "@uppy/aws-s3": "^2.0.4",
