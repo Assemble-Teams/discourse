@@ -63,7 +63,7 @@
     "pretty-text": "^1.0.0",
     "qunit": "^2.14.0",
     "qunit-dom": "^1.6.0",
-    "sass": "^1.32.8",
+    "sass": "^1.79.0",
     "select-kit": "^1.0.0",
     "sinon": "^9.2.0",
     "virtual-dom": "^2.1.1"
