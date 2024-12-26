@@ -120,7 +120,7 @@ gem 'thor', require: false
 gem 'diffy', require: false
 gem 'rinku'
 gem 'sidekiq'
-gem 'mini_scheduler'
+gem 'mini_scheduler', '>= 0.18.0'
 
 gem 'execjs', require: false
 gem 'mini_racer'
